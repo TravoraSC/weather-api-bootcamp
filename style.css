@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Fredoka One', cursive;
+}
+
+ html {
+  background-image: url(weather.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 0rem;
+    background-position-x: center;
+} 
+
+h1 {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+body{
+  height: 100vh;
+  text-align: center;
+}
+h1, h2, p, div{
+  align-self: center;
+}
+
+div {
+  display: block;
+}
+
+
+#allContents {
+  background-color: #86c2ff52;
+  padding: .2rem 0;
+}
